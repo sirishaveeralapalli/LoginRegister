@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Login.Login">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" >
+            <Label FontSize="20" HorizontalOptions="Center">Login In or Sign Up</Label>
+            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                <Label>Email : </Label>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="username"></Entry>
+            </StackLayout>
+             <StackLayout Orientation="Horizontal">
+                <Label>Password : </Label>
+                <Entry x:Name="password" HorizontalOptions="FillAndExpand"></Entry>
+            </StackLayout>
+            <Button Text="login" Clicked="Button_Clicked"></Button>
+             <Button Text="Register" Clicked="Button_Clicked_1"></Button>
+            <Button Text="Forgot Password" Clicked="Button_Clicked_2"></Button>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

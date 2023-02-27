@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Login.RegisterPage">
+   <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Center" Orientation="Vertical">
+        <Label FontSize="20" HorizontalOptions="Center">Register / Sign Up</Label>
+            <StackLayout Orientation="Horizontal">
+                <Label>First Name : </Label>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="firstName"></Entry>
+            </StackLayout>
+             <StackLayout Orientation="Horizontal">
+                <Label>Last Name : </Label>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="lastName"></Entry>
+            </StackLayout>
+             <StackLayout Orientation="Horizontal">
+                <Label>Email : </Label>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="email"></Entry>
+            </StackLayout>
+         <StackLayout Orientation="Horizontal">
+                <Label>Phone Number : </Label>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="phone"></Entry>
+            </StackLayout>
+        <Button Text="Register" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+</ContentPage>
+
